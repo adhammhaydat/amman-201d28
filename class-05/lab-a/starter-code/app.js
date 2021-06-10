@@ -88,11 +88,11 @@ uncomment the call for the testSumArray() function and see if the test passes.*/
 
 let testArray = [2, 3, 4]; 
 function sumArray(sumArr){
-  let sum2=0; 
+  let summ=0; 
   for(let i=0;i<sumArr.length;i++){
-    sum2 = sum2+sumArr[i];
+    summ = summ+sumArr[i];
   }
-  return [sum2,`${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${sum2} is their sum.`];
+  return [summ,`${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${summ} is their sum.`];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
